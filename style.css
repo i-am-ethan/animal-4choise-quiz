@@ -2,3 +2,14 @@
   text-align: center;
   background-color: aqua;
 }
+
+#buttons {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#buttons button {
+  padding: 10px;
+  margin: 5px;
+}

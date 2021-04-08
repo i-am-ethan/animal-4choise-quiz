@@ -11,30 +11,25 @@
     <div id="container">
       <div>
         <input id="time-slider" type="range" min="0" max="10" step="0.1" />
-        <p>残り時間：<span id="timer"></span></p>
+        <p>Timer：<span id="timer"></span></p>
       </div>
       <h1 id="quiz-text">???????</h1>
       <div id="imgs"></div>
-      <button id="answer-a" style="width: 300px">A</button>
-      <button id="answer-b" style="width: 300px">A</button>
-      <button id="answer-c" style="width: 300px">A</button>
-      <button id="answer-d" style="width: 300px">A</button>
+      <div id="buttons">
+        <button id="answer-a" style="width: 300px">A</button>
+        <button id="answer-b" style="width: 300px">A</button>
+        <button id="answer-c" style="width: 300px">A</button>
+        <button id="answer-d" style="width: 300px">none of the above</button>
+      </div>
     </div>
     <script>
-      const imgArray = [
-        "alpaca",
-        "gorilla",
-        "horse",
-        "niwatori",
-        "sheep",
-        "yagi",
-      ];
+      const imgArray = ["alpaca", "gorilla", "horse", "bird", "sheep", "yagi"];
 
       const animalName = [
         "alpaca",
         "gorilla",
         "horse",
-        "niwatori",
+        "bird",
         "sheep",
         "yagi",
       ];

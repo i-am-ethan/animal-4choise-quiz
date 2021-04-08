@@ -16,7 +16,7 @@ const randomImg = Math.floor(Math.random() * 5);
 const randomA = Math.floor(Math.random() * 5);
 const randomB = Math.floor(Math.random() * 5);
 const randomC = Math.floor(Math.random() * 5);
-const randomD = Math.floor(Math.random() * 5);
+// const randomD = Math.floor(Math.random() * 5);
 const img = document.createElement("img");
 const answerA = document.getElementById("answer-a");
 const answerB = document.getElementById("answer-b");
@@ -33,7 +33,7 @@ if (imgArray[randomImg] == animalName[randomA]) {
 answerA.innerText = animalName[randomA];
 answerB.innerText = animalName[randomB];
 answerC.innerText = animalName[randomC];
-answerD.innerText = animalName[randomD];
+// answerD.innerText = animalName[randomD];
 
 function buttonClick(btn, seconds) {
   btn.addEventListener("click", () => {

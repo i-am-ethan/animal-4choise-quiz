@@ -19,7 +19,7 @@ const countDown = () => {
       location.reload();
     };
     quizText.innerText = imgArray[randomImg];
-    setTimeout(timeOut, elapsed * 10);
+    setTimeout(timeOut, 1000);
   }
 };
 countDown();
